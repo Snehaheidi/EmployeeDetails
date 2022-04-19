@@ -8,15 +8,23 @@
     android:gravity="center"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="161dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="30dp"
+        app:srcCompat="@drawable/useremployee" />
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
+        android:layout_marginBottom="60dp"
         android:gravity="center">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Employee details"
+            android:text="Employee Registration"
             android:textSize="30dp"
             />
     </LinearLayout>
@@ -30,17 +38,19 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"
             android:text="Employee Name"
             />
 
         <EditText
+            android:id="@+id/name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:layout_marginLeft="55dp"
             android:ems="10"
-            android:id="@+id/name"
-            android:textAlignment="center"
-            />
+            android:textAlignment="center" />
     </LinearLayout>
 
     <LinearLayout
@@ -52,7 +62,9 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Employee age"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"
+            android:text="Employee Age"
             />
 
         <EditText
@@ -60,6 +72,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
+            android:layout_marginLeft="65dp"
             android:id="@+id/age"
             android:textAlignment="center"
             />
@@ -74,7 +87,9 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Employee technical skill"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"
+            android:text="Employee Technical Skill"
             />
 
         <EditText
@@ -82,6 +97,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
+            android:layout_marginLeft="1dp"
             android:id="@+id/tech_skill"
             android:textAlignment="center"
             />
@@ -96,6 +112,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"
             android:text="Employee Contact"
             />
 
@@ -104,6 +122,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
+            android:layout_marginLeft="38dp"
             android:id="@+id/contact"
             android:textAlignment="center"
             />
@@ -113,12 +132,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+        android:layout_marginTop="40dp"
         android:gravity="center">
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:layout_marginRight="20dp"
             android:id="@+id/add_button"
             android:text="Ok"
             />
@@ -129,6 +150,5 @@
             android:id="@+id/view_button"
             android:text="View"
             />
-
     </LinearLayout>
 </LinearLayout>

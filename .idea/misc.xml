@@ -3,8 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/silpa/Downloads/EmployeeDetails/app/src/main/res/layout/activity_edit.xml" value="0.22447916666666667" />
-        <entry key="..\:/Users/silpa/Downloads/EmployeeDetails/app/src/main/res/layout/activity_main.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/silpa/Downloads/EmployeeDetails/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2275" />
+        <entry key="..\:/Users/silpa/Downloads/EmployeeDetails/app/src/main/res/layout/activity_edit.xml" value="0.1" />
+        <entry key="..\:/Users/silpa/Downloads/EmployeeDetails/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/silpa/Downloads/EmployeeDetails/app/src/main/res/layout/activity_view.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/silpa/Downloads/EmployeeDetails/app/src/main/res/layout/support_simple_spinner_dropdown_item.xml" value="0.22447916666666667" />
       </map>
