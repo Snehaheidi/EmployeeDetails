@@ -19,7 +19,6 @@
             android:text="Employee details"
             android:textSize="30dp"
             />
-
     </LinearLayout>
 
     <LinearLayout

@@ -36,12 +36,12 @@ public class ViewEmployees extends AppCompatActivity {
         arrayAdapter = new ArrayAdapter(this,R.layout.support_simple_spinner_dropdown_item, employeeList);
         listView.setAdapter(arrayAdapter);
 
-        final  ArrayList<student> stud = new ArrayList<student>();
+        final  ArrayList<Employee> stud = new ArrayList<Employee>();
 
         if(c.moveToFirst())
         {
             do{
-                student stu = new student();
+                Employee stu = new Employee();
                 stu.id = c.getString(id);
                 stu.name = c.getString(name);
                 stu.age = c.getString(age);
@@ -61,7 +61,7 @@ public class ViewEmployees extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 String aa = employeeList.get(position).toString();
-                student stu = stud.get(position);
+                Employee stu = stud.get(position);
                 Intent intent = new Intent(getApplicationContext(),edit.class);
                 intent.putExtra("id",stu.id);
                 intent.putExtra("name",stu.name);

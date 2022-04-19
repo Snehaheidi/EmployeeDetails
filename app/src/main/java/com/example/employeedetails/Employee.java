@@ -1,6 +1,6 @@
 package com.example.employeedetails;
 
-public class student {
+public class Employee {
 
     String id;
     String name;
